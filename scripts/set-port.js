@@ -17,7 +17,7 @@ if (!process.env.PORT) {
 
 // replace both url and port if used in assertions, like
 // expect(location.port).to.eq('8080')
-const defaultPort = 3000
+const defaultPort = 8080
 const input = `localhost:${defaultPort}`
 const portRegex = new RegExp(`'${defaultPort}'`, 'g')
 const urlRegex = new RegExp(input, 'g')
